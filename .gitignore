@@ -1,0 +1,38 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.ipynb_checkpoints/
+
+# === Environnement virtuel ===
+venv/
+env/
+.venv/
+ENV/
+
+# === PyCharm ===
+.idea/
+
+# === Données / Résultats temporaires ===
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.sav
+*.h5
+*.npz
+*.pkl
+
+
+
+# === Notebooks / auto-saves ===
+*.checkpoint.ipynb
+
+# === Logs et autres fichiers de debug ===
+*.log
+
+# === Cache de Jupyter et matplotlib ===
+.mplconfig/
+.ipynb_checkpoints/
